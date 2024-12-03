@@ -4,7 +4,7 @@ This is a Quiz application built using **Next.js** for the front-end and **JSON 
 
 ## Features
 
-- **Quiz Application**: Answer multiple-choice questions and get the score at the end.
+- **Quiz Application**: Answer questions and get the score at the end.
 - **Real-time Data**: Data is fetched from a JSON Server running locally.
 - **Responsive**: The application is responsive and works on both desktop and mobile devices.
 
@@ -28,6 +28,7 @@ Before you start, make sure to install all necessary dependencies for both the f
    npm install -g json-server
    json-server --watch db.json --port 3001
 
-2))Start the Front-End:
-Run Command:next dev or npm run dev
+2. **Front-end Run Command**:
+   ```bash
+next dev or npm run dev
    
