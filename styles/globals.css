@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/rubik";
+
+
+:root {
+  --primary: #9333ea;
+  --primary-dark: #7e22ce;
+}
+
+.dark {
+  --background: #111827;
+  --text: #ffffff;
+}
+
+.light {
+  --background: #ffffff;
+  --text: #111827;
+}
+
+body {
+  @apply antialiased;
+}
+
+.ant-btn-primary {
+  background: var(--primary) !important;
+}
+
+.ant-btn-primary:hover {
+  background: var(--primary-dark) !important;
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
+

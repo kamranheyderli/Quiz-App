@@ -1,0 +1,382 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "icon": "/icon/html.png",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of the <!DOCTYPE> declaration in HTML?",
+          "answers": [
+            "To link external CSS files",
+            "To declare the document type and version",
+            "To define the main structure of the HTML document",
+            "To include JavaScript in the HTML file"
+          ],
+          "correctAnswer": "To declare the document type and version"
+        },
+        {
+          "id": 2,
+          "question": "Which HTML tag is used to define an unordered list?",
+          "answers": ["<ul>", "<ol>", "<li>", "<list>"],
+          "correctAnswer": "<ul>"
+        },
+        {
+          "id": 3,
+          "question": "What is the correct syntax for creating a hyperlink?",
+          "answers": [
+            "<a link='url'>Link</a>",
+            "<a href='url'>Link</a>",
+            "<a src='url'>Link</a>",
+            "<link href='url'>Link</link>"
+          ],
+          "correctAnswer": "<a href='url'>Link</a>"
+        },
+        {
+          "id": 4,
+          "question": "Which HTML attribute specifies an alternative text for an image?",
+          "answers": ["alt", "title", "src", "description"],
+          "correctAnswer": "alt"
+        },
+        {
+          "id": 5,
+          "question": "What is the semantic tag for marking up the main content of a web page?",
+          "answers": ["<main>", "<div>", "<section>", "<article>"],
+          "correctAnswer": "<main>"
+        },
+        {
+          "id": 6,
+          "question": "Which tag is used to create a table in HTML?",
+          "answers": ["<table>", "<td>", "<th>", "<tr>"],
+          "correctAnswer": "<table>"
+        },
+        {
+          "id": 7,
+          "question": "What is the default display property of a <div> element?",
+          "answers": ["block", "inline", "inline-block", "none"],
+          "correctAnswer": "block"
+        },
+        {
+          "id": 8,
+          "question": "Which input type is used to select multiple options?",
+          "answers": ["text", "checkbox", "radio", "submit"],
+          "correctAnswer": "checkbox"
+        },
+        {
+          "id": 9,
+          "question": "What is the purpose of the <head> element in HTML?",
+          "answers": [
+            "To display the main content",
+            "To contain metadata and links to external resources",
+            "To define the title of the document",
+            "To include JavaScript code"
+          ],
+          "correctAnswer": "To contain metadata and links to external resources"
+        },
+        {
+          "id": 10,
+          "question": "Which HTML tag is used to embed a video?",
+          "answers": ["<video>", "<embed>", "<media>", "<movie>"],
+          "correctAnswer": "<video>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "icon": "/icon/css.png",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the correct syntax for applying a background color in CSS?",
+          "answers": [
+            "background: blue;",
+            "bg-color: blue;",
+            "background-color: blue;",
+            "color: blue;"
+          ],
+          "correctAnswer": "background-color: blue;"
+        },
+        {
+          "id": 2,
+          "question": "Which property is used to change the text color in CSS?",
+          "answers": ["text-color", "font-color", "color", "text-style"],
+          "correctAnswer": "color"
+        },
+        {
+          "id": 3,
+          "question": "What is the default position property value in CSS?",
+          "answers": ["relative", "static", "absolute", "fixed"],
+          "correctAnswer": "static"
+        },
+        {
+          "id": 4,
+          "question": "Which CSS property is used to control the layout of a flex container?",
+          "answers": ["flexbox", "flex", "display", "justify-content"],
+          "correctAnswer": "display"
+        },
+        {
+          "id": 5,
+          "question": "Which pseudo-class selects an element when the mouse hovers over it?",
+          "answers": [":hover", ":focus", ":active", ":visited"],
+          "correctAnswer": ":hover"
+        },
+        {
+          "id": 6,
+          "question": "What does the z-index property control?",
+          "answers": [
+            "The position of an element in a flexbox",
+            "The stack order of elements",
+            "The spacing between elements",
+            "The height of an element"
+          ],
+          "correctAnswer": "The stack order of elements"
+        },
+        {
+          "id": 7,
+          "question": "Which property is used to create space between the border and the content of an element?",
+          "answers": ["margin", "padding", "border", "gap"],
+          "correctAnswer": "padding"
+        },
+        {
+          "id": 8,
+          "question": "How do you apply a style to an element with a specific id in CSS?",
+          "answers": [
+            "#idName { ... }",
+            ".idName { ... }",
+            "idName { ... }",
+            "[id=idName] { ... }"
+          ],
+          "correctAnswer": "#idName { ... }"
+        },
+        {
+          "id": 9,
+          "question": "Which value is used with the display property to create a grid layout?",
+          "answers": ["grid", "block", "inline-grid", "flex"],
+          "correctAnswer": "grid"
+        },
+        {
+          "id": 10,
+          "question": "What is the difference between relative and absolute positioning?",
+          "answers": [
+            "Relative positions elements relative to their parent; absolute positions elements relative to the viewport.",
+            "Relative positions elements relative to the viewport; absolute positions elements relative to their parent.",
+            "Relative and absolute positioning have the same behavior.",
+            "Relative positions elements in fixed positions; absolute positions elements freely."
+          ],
+          "correctAnswer": "Relative positions elements relative to their parent; absolute positions elements relative to the viewport."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "icon": "/icon/javascript.png",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the difference between var, let, and const?",
+          "answers": [
+            "They are different variable types in other languages.",
+            "var is globally scoped, let is block scoped, and const is for constants.",
+            "All three are identical in usage.",
+            "const can only be used for numbers."
+          ],
+          "correctAnswer": "var is globally scoped, let is block scoped, and const is for constants."
+        },
+        {
+          "id": 2,
+          "question": "What is a closure in JavaScript?",
+          "answers": [
+            "A function with access to its own scope, parent scope, and the global scope.",
+            "A function that executes immediately.",
+            "A method for creating loops.",
+            "A data structure for asynchronous programming."
+          ],
+          "correctAnswer": "A function with access to its own scope, parent scope, and the global scope."
+        },
+        {
+          "id": 3,
+          "question": "Which method is used to iterate over arrays?",
+          "answers": [".map()", ".forEach()", ".filter()", "All of the above"],
+          "correctAnswer": "All of the above"
+        },
+        {
+          "id": 4,
+          "question": "What is the difference between == and ===?",
+          "answers": [
+            "Both check for equality with the same behavior.",
+            "== compares values, === compares values and types.",
+            "== compares strings only, === compares numbers only.",
+            "== is for assignment, === is for comparison."
+          ],
+          "correctAnswer": "== compares values, === compares values and types."
+        },
+        {
+          "id": 5,
+          "question": "What does the Array.prototype.reduce() method do?",
+          "answers": [
+            "Iterates over an array to find the maximum value.",
+            "Executes a reducer function on each element, resulting in a single output.",
+            "Splits the array into chunks.",
+            "Combines two arrays into one."
+          ],
+          "correctAnswer": "Executes a reducer function on each element, resulting in a single output."
+        },
+        {
+          "id": 6,
+          "question": "What does the 'this' keyword refer to?",
+          "answers": [
+            "The global object in any context.",
+            "The object that owns the currently executing code.",
+            "Always the parent object.",
+            "A fixed reference to the window object."
+          ],
+          "correctAnswer": "The object that owns the currently executing code."
+        },
+        {
+          "id": 7,
+          "question": "What are promises in JavaScript?",
+          "answers": [
+            "A function that executes synchronously.",
+            "An object representing the eventual completion or failure of an asynchronous operation.",
+            "A data type for storing strings.",
+            "A method for looping over arrays."
+          ],
+          "correctAnswer": "An object representing the eventual completion or failure of an asynchronous operation."
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of the async/await syntax?",
+          "answers": [
+            "To create synchronous code.",
+            "To handle asynchronous operations more elegantly.",
+            "To execute code in parallel.",
+            "To manipulate DOM elements."
+          ],
+          "correctAnswer": "To handle asynchronous operations more elegantly."
+        },
+        {
+          "id": 9,
+          "question": "What is the output of: console.log(typeof null)?",
+          "answers": ["object", "null", "undefined", "function"],
+          "correctAnswer": "object"
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the event loop in JavaScript?",
+          "answers": [
+            "To execute synchronous code.",
+            "To handle asynchronous code and events.",
+            "To manage global variables.",
+            "To create timers."
+          ],
+          "correctAnswer": "To handle asynchronous code and events."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Accessibility",
+      "icon": "/icon/accessibility.png",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is web accessibility?",
+          "answers": [
+            "A feature for increasing website speed",
+            "The practice of making websites usable by people with disabilities",
+            "An optimization technique for search engines",
+            "A method for designing websites"
+          ],
+          "correctAnswer": "The practice of making websites usable by people with disabilities"
+        },
+        {
+          "id": 2,
+          "question": "Which HTML attribute is used to describe the purpose of an image?",
+          "answers": ["alt", "src", "title", "description"],
+          "correctAnswer": "alt"
+        },
+        {
+          "id": 3,
+          "question": "What does ARIA stand for?",
+          "answers": [
+            "Accessible Rich Internet Applications",
+            "Advanced Resource Integration API",
+            "Accessibility and React Integration Assistance",
+            "Augmented Reality Interactive Applications"
+          ],
+          "correctAnswer": "Accessible Rich Internet Applications"
+        },
+        {
+          "id": 4,
+          "question": "Which role should be used to define a navigation bar in ARIA?",
+          "answers": [
+            "role='menu'",
+            "role='navigation'",
+            "role='toolbar'",
+            "role='header'"
+          ],
+          "correctAnswer": "role='navigation'"
+        },
+        {
+          "id": 5,
+          "question": "How can you make a form label accessible?",
+          "answers": [
+            "Using the 'for' attribute to link the label to its input",
+            "Placing the label inside the input field",
+            "Using the 'title' attribute on the input field",
+            "Leaving the label as plain text"
+          ],
+          "correctAnswer": "Using the 'for' attribute to link the label to its input"
+        },
+        {
+          "id": 6,
+          "question": "Which HTML element is commonly used to provide alternative text for non-text content?",
+          "answers": ["<caption>", "<summary>", "<alt>", "<figcaption>"],
+          "correctAnswer": "<figcaption>"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of the 'tabindex' attribute?",
+          "answers": [
+            "To create a tabbed interface",
+            "To specify the tab order of elements",
+            "To style tabs in a webpage",
+            "To group similar elements together"
+          ],
+          "correctAnswer": "To specify the tab order of elements"
+        },
+        {
+          "id": 8,
+          "question": "Which WCAG principle ensures that content is usable with a keyboard?",
+          "answers": ["Operable", "Perceivable", "Understandable", "Robust"],
+          "correctAnswer": "Operable"
+        },
+        {
+          "id": 9,
+          "question": "How can you ensure that a video is accessible?",
+          "answers": [
+            "By adding closed captions",
+            "By reducing its resolution",
+            "By embedding it in an iframe",
+            "By disabling autoplay"
+          ],
+          "correctAnswer": "By adding closed captions"
+        },
+        {
+          "id": 10,
+          "question": "What is the main goal of semantic HTML?",
+          "answers": [
+            "To improve SEO rankings",
+            "To define the meaning and structure of web content",
+            "To increase page load speed",
+            "To add animations to elements"
+          ],
+          "correctAnswer": "To define the meaning and structure of web content"
+        }
+      ]
+    }
+  ]
+}
