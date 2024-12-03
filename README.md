@@ -30,5 +30,6 @@ Before you start, make sure to install all necessary dependencies for both the f
 
 2. **Front-end Run Command**:
    ```bash
-next dev or npm run dev
+   next dev
+   npm run dev
    
