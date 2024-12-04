@@ -17,9 +17,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <ThemeInitializer />
-      <AntLayout className={`h-auto md:h-screen overflow-hidden p-0 lg:p-10 py-3 md:py-0  ${mode === 'dark' ? 'bg-gray-900' : 'bg-gray-50'}`}>
+      <AntLayout className={`h-auto md:h-screen overflow-hidden lg:p-10 py-3 md:py-0  ${mode === 'dark' ? 'bg-gray-900' : 'bg-gray-50'}`}>
         <Header />
-        <Content className="pt-10 lg:mt-5">
+        <Content className="py-10 lg:mt-5 h-auto md:h-screen">
           {children}
         </Content>
       </AntLayout>

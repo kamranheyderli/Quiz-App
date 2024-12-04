@@ -1,7 +1,6 @@
 import { getLocalStorage, setLocalStorage } from "@/utils/cookies";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-// QuizState tipləri
 type QuizState = {
   currentQuestion: number;
   score: number;

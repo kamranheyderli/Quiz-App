@@ -31,7 +31,7 @@ body {
   background: var(--primary-dark) !important;
 }
 ::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none; 
 }
 
 
