@@ -33,3 +33,7 @@ Before you start, make sure to install all necessary dependencies for both the f
    next dev
    npm run dev
    
+3.  **Front-end Extra Bonus**
+**Added Confetti animation when the number of correct answers is more than 5**.
+**Ensured data persistence using LocalStorage to prevent data loss after page refresh**.
+   
