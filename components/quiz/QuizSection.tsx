@@ -38,7 +38,7 @@ export const QuizSection: React.FC<QuizSectionProps> = ({
   const currentQuestionData = subjectData.questions[currentQuestion];
 
   return (
-    <div className="container h-auto md:h-screen mx-auto px-2 lg:px-5 lg:py-8">
+    <div className="container h-screen mx-auto px-2 lg:px-5 lg:py-8">
       <QuizCard
         question={currentQuestionData.question}
         answers={currentQuestionData.answers}
